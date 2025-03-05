@@ -1,3 +1,4 @@
+/* eslint-disable i18next/no-literal-string */
 import React, { Suspense, useEffect } from 'react';
 import './styles/index.scss';
 import { classNames } from 'shared/lib/classNames/classNames';
@@ -15,6 +16,7 @@ function App() {
                 <Navbar />
                 <div className="content-page">
                     <Sidebar />
+              
                     <AppRouter />
                 </div>
             </Suspense>
