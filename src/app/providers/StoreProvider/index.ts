@@ -1,3 +1,9 @@
-export type { StateShema } from './config/StateShema';
-export { createReduxStore } from "./config/store";
-export { StoreProvider } from "./ui/StoreProvider";
+import { StoreProvider } from './ui/StoreProvider';
+import { createReduxStore } from './config/store';
+import type { StateSchema } from './config/StateSchema';
+
+export {
+    StoreProvider,
+    createReduxStore,
+    StateSchema,
+};
