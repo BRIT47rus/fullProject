@@ -1,15 +1,12 @@
 import { createSlice } from '@reduxjs/toolkit';
-import { UserShema } from '../types/user';
+import { UserSchema } from '../types/user';
 
-const initialState:UserShema = {
-    
-};
+const initialState: UserSchema = {};
 
 export const userSlice = createSlice({
     name: 'user',
     initialState,
-    reducers: {
-    },
+    reducers: {},
 });
 
 // Action creators are generated for each case reducer function

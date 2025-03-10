@@ -1,3 +1,9 @@
-export { UserShema, User } from './types/user';
-export { userSlice, userActions, userReducer } from "./slice/userSlice";
+export {
+    userReducer,
+    userActions,
+} from './model/slice/userSlice';
 
+export {
+    UserSchema,
+    User,
+} from './model/types/user';
